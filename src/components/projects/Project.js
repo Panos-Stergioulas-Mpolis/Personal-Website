@@ -1,9 +1,9 @@
 import React from 'react'
-import "./project.css"
+
 
 function Project() {
   return (
-    <div>Project</div>
+    <div className='text-3xl'></div>
   )
 }
 
