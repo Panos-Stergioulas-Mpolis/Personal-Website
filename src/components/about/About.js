@@ -16,7 +16,7 @@ function About() {
              Ipsum passage, and going through the cites of the word in classical literature, discovered the
                 </p>
              <div className='text-xl  font-bold  text-black'>
-             &lt;Education&gt;
+             &lt;/Education&gt;
              </div>
         </div>
         <div className='ml-[30px] my-1'>
@@ -30,7 +30,7 @@ function About() {
              Ipsum passage, and going through the cites of the word in classical literature, discovered the
                 </p>
              <div className='text-xl  font-bold  text-black'>
-             &lt;Skills&gt;
+             &lt;/Skills&gt;
              </div>
         </div>
         <div className='ml-[30px] my-1'>
@@ -44,7 +44,7 @@ function About() {
              Ipsum passage, and going through the cites of the word in classical literature, discovered the
                 </p>
              <div className='text-xl  font-bold text-black'>
-             &lt;What I Do&gt;
+             &lt;/What I Do&gt;
              </div>
         </div>
         </div>

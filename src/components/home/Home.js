@@ -3,7 +3,7 @@ import {AiFillGithub, AiFillLinkedin} from "react-icons/ai"
 
 function About() {
   return (
-    <div className='mt-[150px] flex-col mx-auto text-center w-[50%] space-y-4 '> 
+    <div className='mt-[210px] flex-col mx-auto text-center w-[50%] space-y-4 '> 
         <h1 className='text-[20px] md:text-3xl text-[#642db7] font-bold'>Panagiotis Stergioulas-Bolis</h1>
         <h2 className='text-[15px] md:text-xl font-bold text-[#525252]'>Junior Front-End Developer</h2>
         <p className=''>
