@@ -90,7 +90,7 @@ function About() {
                         </li>
                         <li className='flex items-center justify-between'>
                             CSS
-                            <img className='w-[35px]' alt='Css logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png'></img>
+                            <img className='w-[30px]' alt='Css logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png'></img>
                         </li>
                         <li className='flex items-center justify-between'>
                             Tailwindcss
