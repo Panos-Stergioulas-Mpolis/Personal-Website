@@ -11,7 +11,13 @@ function App() {
     <div className=''>
       <Navbar />
       <Home />
+      <div className='mt-[150px] text-[30px] px-4 font-semibold'>
+        &lt;About&gt;
+      </div>
       <About />
+      <div className='mt-[50px] text-[30px] px-4 font-semibold'>
+        &lt;/About&gt;
+      </div>
       <Project />
     </div>
   )
