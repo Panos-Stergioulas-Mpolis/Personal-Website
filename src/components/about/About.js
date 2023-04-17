@@ -5,7 +5,7 @@ function About() {
   return (
     <div className='mt-[50px] w-full px-[80px] flex justify-center flex-wrap gap-[60px]'>
 
-            <div className='w-[300px] shadow-[0_10px_10px_rgba(0,0,0,0.3)] h-[400px] text-center flex flex-col gap-6 '>
+            <div className='bg-white w-[300px] shadow-[0_0_5px_rgb(255,255,255)] h-[400px] text-center flex flex-col gap-6 '>
 
                 <h1 className='font-semibold text-[25px] text-center text-white bg-[#642db7]'>Education</h1>
                 <div className='flex flex-col gap-6'>
@@ -20,7 +20,7 @@ function About() {
 
             </div>
 
-            <div className='w-[300px] shadow-[0_10px_10px_rgba(0,0,0,0.3)] h-[400px] flex flex-col gap-6 '>
+            <div className='bg-white w-[300px] shadow-[0_0_5px_rgb(255,255,255)] h-[400px] flex flex-col gap-6 '>
 
                 <h1 className='font-semibold text-[25px] text-center text-white bg-[#642db7]'>Soft Skills</h1>
                 <div>
@@ -36,7 +36,7 @@ function About() {
 
             </div>
 
-            <div className='w-[300px] shadow-[0_10px_10px_rgba(0,0,0,0.3)] h-[400px] flex flex-col gap-6 '>
+            <div className='bg-white w-[300px] shadow-[0_0_5px_rgb(255,255,255)] h-[400px] flex flex-col gap-6 '>
 
                 <h1 className='font-semibold text-[25px] text-center text-white bg-[#642db7]'>Languages</h1>
                 <div>
@@ -48,7 +48,7 @@ function About() {
 
             </div>
 
-            <div className='w-[300px] shadow-[0_10px_10px_rgba(0,0,0,0.3)] h-[400px] flex flex-col gap-6 '>
+            <div className='bg-white w-[300px] shadow-[0_0_5px_rgb(255,255,255)] h-[400px] flex flex-col gap-6 '>
 
                 <h1 className='font-semibold text-[25px] text-center text-white bg-[#642db7]'>Programming languages</h1>
                 <div>
@@ -75,7 +75,7 @@ function About() {
             </div>
             
 
-            <div className='w-[300px] shadow-[0_10px_10px_rgba(0,0,0,0.3)] h-[400px] flex flex-col gap-6 '>
+            <div className='bg-white w-[300px] shadow-[0_0_5px_rgb(255,255,255)] h-[400px] flex flex-col gap-6 '>
 
                 <h1 className='font-semibold text-[25px] text-center text-white bg-[#642db7]'>Front-End</h1>
                 <div>
@@ -100,7 +100,7 @@ function About() {
                 </div>
 
             </div>
-
+        
 
     </div>
   )
