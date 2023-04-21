@@ -19,9 +19,9 @@ function NavBar() {
           <li className='mr-[70px] hover:cursor-pointer hover:underline '>About</li>
           <li className='mr-[70px] hover:cursor-pointer hover:underline '>Portfolio</li>
           <li className='mr-[70px] hover:cursor-pointer hover:underline '>Contact</li>
-          <li><button  className='bg-[#642db7] text-white px-3 py-[2px] rounded-md hover:bg-[#40187e]'>Resume</button></li>
+          <li><button  className='bg-[#642db7] text-white px-3 py-[2px] rounded-md hover:bg-[#]'>Resume</button></li>
         </ul>
-        <div onClick={handelclic} className="block hover:cursor-pointer md:hidden">
+        <div onClick={handelclic} className="block hover:cursor-pointer md:hidden text-[#d500dc]">
           {!menu ? <AiOutlineMenu size={25} />: <AiOutlineClose size={25}/>}
         </div>
         <div className={menu ? 'fixed left-[0] top-[0] md:hidden w-[50%] bg-white pt-3 shadow-lg  border-r-[1px] border-b-[1px] border-[#5f5555]':"hidden"}>

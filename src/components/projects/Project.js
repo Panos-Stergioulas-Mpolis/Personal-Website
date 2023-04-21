@@ -6,7 +6,7 @@ function Project(props) {
 
   
   return (
-    <div className={props.st?'md:flex  justify-between items-center ':"md:flex flex-row-reverse justify-between items-center"}>
+    <div className={props.st?'lg:flex  justify-between items-center ':"lg:flex flex-row-reverse justify-between items-center"}>
       <img alt={props.name} src={props.img} className='w-full md:w-[400px] h-[250px] rounded-[12px] shadow-[0_10px_10px_rgba(0,0,0,0.3)]'></img>
       <div className='flex flex-col'>
         <p className='w-[100%] md:w-[70%] text-[20px] font-semibold my-4'>{props.par}</p>
