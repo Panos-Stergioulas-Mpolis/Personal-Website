@@ -50,7 +50,7 @@ function App() {
 
       <div>
 
-      <div className='flex flex-col gap-[80px] px-[50px] md:px-[100px]'>
+      <div className='flex flex-col gap-[80px] px-[50px] lg:px-[100px]'>
         {proj}
       </div>
 

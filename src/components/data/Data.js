@@ -9,7 +9,7 @@ export default
         Giturl: "https://github.com/Panos-Stergioulas-Mpolis/React-Calculator",
         name: "React Calculator",
         img: img1,
-        par: "This is a calculatro app i created using React",
+        par: "This is a calculator app i created using React",
     },
     {
         id: 1,

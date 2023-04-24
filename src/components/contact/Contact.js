@@ -9,7 +9,7 @@ function Contact() {
         <input type='email' placeholder='Email' className='px-[15px] py-[10px] rounded-[9px] focus:outline-none md:text-[20px] text-[17px]'></input>
         <textarea rows="6" cols="40" placeholder='Message' className='px-[15px] py-[10px] rounded-[9px] focus:outline-none md:text-[20px] text-[17px] max-h-[170px] min-h-[170px]'></textarea>
       </form>
-      <button className='bg-[#0048ff] py-[7px] px-[20px] md:text-[20px] text-[17px] border-[2px] border-solid  text-white font-semibold rounded-[9px]'>Send</button>
+      <button className='bg-[#0048ff] py-[7px] px-[20px] md:text-[20px w-[50%] md:w-full text-[17px] border-[2px] border-solid  text-white font-semibold rounded-[9px]'>Send</button>
     </div>
   )
 }

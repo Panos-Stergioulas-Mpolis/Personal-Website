@@ -7,7 +7,7 @@ function About() {
 
             <div className='bg-white w-[300px] shadow-[0_0_5px_rgb(255,255,255)] h-[400px] text-center flex flex-col gap-6 '>
 
-                <h1 className='font-semibold text-[25px] text-center text-white bg-[#642db7]'>Education</h1>
+                <h1 className='font-semibold text-[25px] py-[7px] text-center text-white bg-[#642db7]'>Education</h1>
                 <div className='flex flex-col gap-6'>
                     <p className='w-[90%] m-auto'>
                         I study at the University of Macedonia in the 
@@ -22,7 +22,7 @@ function About() {
 
             <div className='bg-white w-[300px] shadow-[0_0_5px_rgb(255,255,255)] h-[400px] flex flex-col gap-6 '>
 
-                <h1 className='font-semibold text-[25px] text-center text-white bg-[#642db7]'>Soft Skills</h1>
+                <h1 className='font-semibold text-[25px] py-[7px] text-center text-white bg-[#642db7]'>Soft Skills</h1>
                 <div>
                     <ul className='w-[70%] m-auto gap-3 flex flex-col text-[20px] list-disc'>
                         <li>Problem-solving</li>
@@ -38,7 +38,7 @@ function About() {
 
             <div className='bg-white w-[300px] shadow-[0_0_5px_rgb(255,255,255)] h-[400px] flex flex-col gap-6 '>
 
-                <h1 className='font-semibold text-[25px] text-center text-white bg-[#642db7]'>Languages</h1>
+                <h1 className='font-semibold text-[25px] py-[7px] text-center text-white bg-[#642db7]'>Languages</h1>
                 <div>
                     <ul className='w-[70%] m-auto gap-[25px] items-center flex flex-col text-[30px]'>
                         <li>English</li>
@@ -50,7 +50,7 @@ function About() {
 
             <div className='bg-white w-[300px] shadow-[0_0_5px_rgb(255,255,255)] h-[400px] flex flex-col gap-6 '>
 
-                <h1 className='font-semibold text-[25px] text-center text-white bg-[#642db7]'>Programming languages</h1>
+                <h1 className='font-semibold text-[25px] py-[7px] text-center text-white bg-[#642db7]'>Programming languages</h1>
                 <div>
                     <ul className='w-full flex flex-col gap-5 px-2 md:px-5 text-[25px]'>
                         <li className='flex items-center justify-between'>
@@ -77,7 +77,7 @@ function About() {
 
             <div className='bg-white w-[300px] shadow-[0_0_5px_rgb(255,255,255)] h-[400px] flex flex-col gap-6 '>
 
-                <h1 className='font-semibold text-[25px] text-center text-white bg-[#642db7]'>Front-End</h1>
+                <h1 className='font-semibold text-[25px] py-[7px] text-center text-white bg-[#642db7]'>Front-End</h1>
                 <div>
                     <ul className='w-full flex flex-col gap-5 px-2 md:px-5 text-[25px]'>
                         <li className='flex items-center justify-between'>
