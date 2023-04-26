@@ -7,10 +7,7 @@ function About() {
         <h1 className='text-[20px] md:text-3xl text-[#642db7] text-center font-bold'>Panagiotis Stergioulas-Bolis</h1>
         <h2 className='text-[15px] md:text-xl font-bold text-[#525252]'>Software Developer</h2>
         <p className='text-center mb-3'>
-            ry to popular belief, Lorem Ipsum is not simply random 
-            text. Itt Hampden-Sydney 
-            College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem
-             Ipsum passage, and going through the cites of the word in classical literature, discovered the 
+        I am an undergraduate student at the University of Macedonia. My main programming inderests are Front End development, Ai and machine learning
         </p>
         <ul className='flex justify-center gap-x-[70px]'>
             <li className='cursor-pointer hover:text-[#238ba2] text-3xl'><a alt="My Github Profile" href='https://github.com/Panos-Stergioulas-Mpolis' target="_blank"><AiFillGithub size={50}/></a></li>
