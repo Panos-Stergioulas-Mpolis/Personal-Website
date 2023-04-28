@@ -25,11 +25,11 @@ function NavBar() {
     <div className='flex items-center justify-between   w-full px-4 h-[70px] bg-white fixed top-[0] shadow-md'>
       <h1 className='w-full text-2xl font-bold text-[#642db7]'>Panos-Katos</h1> 
        <ul className='hidden md:flex text-lg items-center '> 
-       <li className='mr-[70px] hover:cursor-pointer hover:underline '>Home</li>
-          <li className='mr-[70px] hover:cursor-pointer hover:underline '>About</li>
-          <li className='mr-[70px] hover:cursor-pointer hover:underline '>Portfolio</li>
-          <li className='mr-[70px] hover:cursor-pointer hover:underline '>Contact</li>
-          <li><button  className='bg-[#642db7] text-white px-3 py-[2px] rounded-md hover:bg-[#]'>Resume</button></li>
+       <li className='mr-[70px] hover:cursor-pointer nav_links'>Home</li>
+          <li className='mr-[70px] hover:cursor-pointer nav_links'>About</li>
+          <li className='mr-[70px] hover:cursor-pointer nav_links'>Portfolio</li>
+          <li className='mr-[70px] hover:cursor-pointer nav_links'>Contact</li>
+          <li><button  className='bg-[#642db7] text-white px-3 py-[2px] rounded-md duration-300 ease-in-out hover:bg-[#af2b90]'>Resume</button></li>
         </ul>
         <div onClick={handelclic} className="block hover:cursor-pointer md:hidden text-[#d500dc]">
           {!menu ? <AiOutlineMenu size={25} />: <AiOutlineClose size={25}/>}
@@ -40,7 +40,7 @@ function NavBar() {
           <li className='hover:cursor-pointer text-[20px] mb-6  pl-3'>About</li>
           <li className='hover:cursor-pointer text-[20px] mb-6  pl-3'>Portfolio</li>
           <li className='hover:cursor-pointer text-[20px] mb-6  pl-3'>Contact</li>
-          <li className='pl-3'><button className='bg-[#642db7] text-white px-3 py-[2px] rounded-md hover:bg-[#40187e] mb-4'>Resume</button></li>
+          <li className='pl-3'><button className='bg-[#642db7] text-white px-3 py-[2px] rounded-md duration-300 ease-in-out hover:bg-[#af2b90] mb-4'>Resume</button></li>
       </ul>
       </div>
     </div>

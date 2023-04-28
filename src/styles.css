@@ -15,3 +15,24 @@
    background: linear-gradient(120deg, #af2b90, #5c10b3);
    fill: white;
 }
+
+.nav_links{
+   position: relative;
+   text-decoration: none;
+   padding: 0 7px;
+}
+
+.nav_links:after{
+   content: "";
+   position: absolute;
+   background-color:#af2b90;
+   height: 2px;
+   width: 0;
+   left: 0;
+   bottom: 0;
+   transition: 200ms;
+}
+
+.nav_links:hover:after{
+   width: 100%;
+}
