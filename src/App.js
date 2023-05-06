@@ -24,7 +24,7 @@ function App() {
   })
 
   return (
-    <div className='' id="home">
+    <div className=''>
 
       <Navbar />
 
